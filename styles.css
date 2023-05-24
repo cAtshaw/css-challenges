@@ -1,0 +1,35 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 300;
+  font-size: 21px;
+}
+
+.container {
+  width: 570px;
+  margin: 0 auto;
+}
+
+/* Typography h1 h2 h3  */
+
+h1,
+h2 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.psmall {
+  font-size: small;
+}
