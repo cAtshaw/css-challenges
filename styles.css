@@ -10,7 +10,27 @@ body {
   margin: 0 auto;
 }
 
-/* Typography h1 h2 h3  */
+/* Typography h1 h2 h3 a */
+
+a {
+  color: #99d930;
+}
+
+a:hover {
+  color: #131313;
+}
+
+.h1bold {
+  display: block;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+h2 span {
+  display: block;
+  font-size: 60px;
+  font-weight: bold;
+}
 
 h1,
 h2 {
