@@ -26,12 +26,14 @@ a:hover {
   display: block;
   font-weight: 900;
   font-size: 80px;
+  color: #99d930;
 }
 
 h2 span {
   display: block;
   font-size: 60px;
   font-weight: 900;
+  color: #99d930;
 }
 
 h1,
@@ -46,7 +48,14 @@ h1 {
 
 h2 {
   margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 570px;
+  padding: 15px;
   font-size: 42px;
+  box-sizing: border-box;
+  border-bottom: solid 1px #c4c4c4;
+  border-top: solid 1px #c4c4c4;
 }
 
 h3 {
@@ -59,9 +68,13 @@ h3 {
 .psmall {
   margin-top: 0;
   font-size: small;
+  color: #99d930;
 }
 
 p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 570px;
 }
 
 /* Sections of Website */
@@ -92,4 +105,10 @@ section {
 .btn:focus {
   color: #fff;
   background-color: #252525;
+}
+
+.inverse .btn:hover,
+.inverse .btn:focus {
+  background-color: #fff;
+  color: #252525;
 }
